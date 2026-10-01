@@ -34,13 +34,9 @@ jobs:
         working-directory: ./frontend
         run: npm run build
 
-      - name: Install Capacitor CLI & Android
+      - name: Sync Capacitor Android
         working-directory: ./frontend
-        run: |
-          npm install @capacitor/core @capacitor/cli @capacitor/android
-          npx cap init "KiranaPro POS" "com.kirana.pos" --web-dir dist
-          npx cap add android
-          npx cap sync android
+        run: npx cap sync android
 
       - name: Build Android Debug APK
         working-directory: ./frontend/android
