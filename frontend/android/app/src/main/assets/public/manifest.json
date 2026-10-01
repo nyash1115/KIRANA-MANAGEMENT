@@ -1,0 +1,24 @@
+{
+  "short_name": "KiranaPro",
+  "name": "KiranaPro POS & Store Manager",
+  "description": "Complete Kirana Store Management & Mobile POS System with Barcode Scanner, Billing, Khata and Inventory",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#064e3b",
+  "theme_color": "#10b981",
+  "display": "standalone",
+  "orientation": "portrait-primary"
+}
